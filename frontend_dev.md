@@ -19,11 +19,11 @@ The form body should consist of a username and password, which you should have r
 
 2. A HTTP GET request to the `historian/collectors` endpoint
 
-Perform a GET request to retrieve all collectors from the historian administation system. Provide the JWT token as a http header to authenticate the request.
+Perform a GET request to retrieve all collectors from the historian administation system. Provide the JWT token as a http header `Authorization: Bearer mysecretJWTtoken` to authenticate the request, as seen in the example `request-response` folder.
 
 3. A HTTP POST request to the `historian/collectors` endpoint
 
-Create a new collector by providing the appropriate JSON body in the request. Provide the JWT token as a http header to authenticate the request. Examples can be found in the `request-response` folder.
+Create a new collector by providing the appropriate JSON body in the request. Provide the JWT token as a http header `Authorization: Bearer mysecretJWTtoken` to authenticate the request, as seen in the example `request-response` folder.
 
 Examples of requests and responses can be found in the `request-response` folder.
 
